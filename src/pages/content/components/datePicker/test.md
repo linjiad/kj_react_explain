@@ -1,0 +1,7 @@
+## DatePicker 日期选择器
+#### 当用户需要输入一个时间，可以点击标准输入框，弹出时间面板进行选择。
+&nbsp;
+&nbsp;
+&nbsp;
+### 引用
+>const { DatePicker } = window.common;

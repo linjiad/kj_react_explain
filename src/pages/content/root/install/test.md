@@ -1,0 +1,16 @@
+* config——配置文件存放
+   * jest——存放单元测试文件
+   * webpack.common.js——打包配置文件
+   * webpack.dev.js——本地打包，启动配置文件
+   * webpack.prod.js——生产环境打包配置文件
+* my_node——模板提供的功能和组件
+   * ajax——模板提供的ajax功能
+   * common——模板提供的组件
+   * db——模板提供的本地存储功能
+* **src——开发代码路径**
+* .babelrc——babel配置文件
+* .eslintignore——eslint不校验的文件路径
+* .eslintrc.js——eslint规则配置文件
+* .package.json——项目信息及包管理文件，包括项目的启动打包等命令
+* .package-lock.json——项目包管理文件
+* postcss.config.js——CSS浏览器兼容配置

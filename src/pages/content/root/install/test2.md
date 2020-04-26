@@ -1,0 +1,26 @@
+* _test_——测试用力路径
+   * unit——单元测试路径
+      * sub1——单元测试的模块
+   * untils——测试用力的公共方法
+* pages——页面代码路径
+   * components——页面的公共组件路径
+   * content——页面主体代码
+      * sub2——sub2模块代码路径
+         * item1——sub2的子模块，item1模块代码
+         * App.js——sub2模块代码
+         * App.less——sub2模块代样式
+* router——项目路由
+   * check.js——路由跳转之前的校验
+   * config.js——路由配置文件
+   * index.js——路由页面代码
+   * index.js——路由页面样式
+* service——模板提供的服务
+   * db——封装本地存储服务
+   * request——封装请求的服务
+      * constant.js——本地服务的请求路径配置
+      * constantService.js——产品环境的请求路径配置
+   * utile.js——项目的公共工具方法
+* index.html——项目的HTML页面
+* index.js——项目的本地环境启动js文件
+* indexSercice.js——项目的产品环境启动js文件
+* index.less——项目的整体样式文件
