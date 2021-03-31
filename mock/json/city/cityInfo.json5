@@ -1,0 +1,18 @@
+{
+  list: [
+    {
+      url:"/user/userInfo3",
+      request: "POST",
+      result: {
+        code: 1,
+        id:"@id()",
+        userName:"@cname()",
+        date:"@date()",
+        avatar:"@image('200*200','red','#fff','avatar')",
+        description:"@paragraph()",
+        ip:"@ip",
+        email:"@email()"
+      }
+    },
+  ]
+}

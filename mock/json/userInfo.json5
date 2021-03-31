@@ -1,0 +1,30 @@
+{
+  list: [
+    {
+      url:"/api/test",
+      request: "POST",
+      result: {
+        code: 1,
+        total: "@integer(33,33)",
+        "data|10": [
+          {
+            id:"@id()",
+            userName:"@cname()",
+            date:"@datetime()",
+            avatar:"@image('200*200','red','#fff','avatar')",
+            description:"@paragraph()",
+            ip:"@ip",
+            email:"@email()",
+            url: "@url()",
+            name: "@ctitle(5)",
+            "status|1": [
+              "申请",
+              "上架",
+              "下架"
+            ]
+          }
+        ]
+      }
+    },
+  ]
+}

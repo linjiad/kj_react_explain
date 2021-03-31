@@ -41,6 +41,13 @@ class App extends Component {
                 list:[],
             },
             {
+                name:"mock请求说明",
+                key: "03",
+                icon: " ",
+                url: "/root/explainMock",
+                list:[],
+            },
+            {
                 name:"router路由配置",
                 key: "02",
                 icon: " ",

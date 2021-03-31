@@ -1,0 +1,18 @@
+{
+  list: [
+    {
+      url:"/user/userInfo2",
+      request: "GET",
+      result: {
+        code: 1,
+        id:"@id()",
+        userName:"@cname()",
+        date:"@date()",
+        avatar:"@image('200*200','red','#fff','avatar')",
+        description:"@paragraph()",
+        ip:"@ip",
+        email:"@email()"
+      }
+    },
+  ]
+}

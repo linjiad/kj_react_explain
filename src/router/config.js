@@ -36,6 +36,7 @@ import IntroductionPage from "../pages/content/root/introduction/index";
 import NpmPage from "../pages/content/root/npm/index";
 import ExplainPage from "../pages/content/root/explain/index";
 import InstallPage from "../pages/content/root/install/index";
+import ExplainMock from "../pages/content/root/mock/index";
 import Router from "../pages/content/root/router/index";
 import {Component} from "react";
 class RouterConfig extends Component {
@@ -50,6 +51,7 @@ class RouterConfig extends Component {
                     {path : "/root/explainPage", name : "框架说明", component : ExplainPage, check : false},
                     {path : "/root/installPage", name : "框架安装", component : InstallPage, check : false},
                     {path : "/root/router", name : "框架路由", component : Router, check : false},
+                    {path : "/root/explainMock", name : "mock说明", component : ExplainMock, check : false},
                 ]
             },
             {path : "/components", name : "组件", component : ComponentsAPP, check : false,

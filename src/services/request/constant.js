@@ -1,11 +1,15 @@
-class Constant {
+import urlList from "./constantBase";
+class Constant{
     constructor() {
-        this.metadataIp= "49.4.6.42:32000";
-        this.insertSelectiveTest = {
-            url: this.getPost(this.metadataIp,"/v1/api/list/page"),
-            author: "zhuangyea",
-            name: "接口配置测试"
-        };
+        // this.ipConfig= "127.0.0.1:8080";
+        this.ipConfig= window.location.host;
+        for (let item in urlList){
+            this[item] = {
+                url: this.getPost(this.ipConfig,urlList[item].url),
+                author: urlList[item].author,
+                name: urlList[item].name
+            };
+        }
     }
     getPost(ip,url) {
         return `http://${ip}${url}`;

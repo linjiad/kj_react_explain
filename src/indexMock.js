@@ -4,7 +4,7 @@ import RouteMap from "./router";
 import "antd/dist/antd.css";
 import "./index.less";
 import "react-code-previewer/dist/react-code-previewer.min.css";
-import constant from "./services/request/constant";
+import constant from "./services/request/constantMock";
 // 引入组件
 import common from "common";
 window.common = common;
